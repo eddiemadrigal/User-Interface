@@ -90,7 +90,7 @@ ul {
 	position: fixed;
 	background-color: #eee;
 	top: 0;
-	width: 90%;
+	width: 100%;
 }
 
 ul li {
@@ -107,7 +107,7 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin: 120px auto 50px;
+	margin: 100px auto 50px;
 	width: 80%;
 	text-align: center;
 }

@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 
 p {
 	font-family: 'Ibarra Real Nova', serif;
-	font-size: 1.5rem;
+	font-size: 16px;
 }
 
 /* End paragraph formatting with Google font */
@@ -88,14 +88,14 @@ p {
 ul {
 	text-align: center;
 	position: fixed;
-	background-color: #eee;
+	background-color: #fff;
 	top: 0;
-	width: 90%;
+	width: 100%;
 }
 
 ul li {
 	display: inline-block;
-	padding: 10px 45px;
+	padding: 20px 45px;
 }
 
 ul li:last-child {
@@ -107,7 +107,7 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin: 120px auto 50px;
+	margin: 85px auto 50px;
 	width: 80%;
 	text-align: center;
 }
@@ -174,10 +174,6 @@ address h2 {
 	margin-top: 40px;
 }
 
-address p {
-	font-size: 1rem;
-}
-
 a {
 	text-decoration: none;
 	color: #000;
@@ -194,7 +190,6 @@ p.para-v-spacing {
 footer p {
 	text-align: center;
 	margin: 40px 0;
-	font-size: 1rem;
 }
 
 /* footer ends here */
