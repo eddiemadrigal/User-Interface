@@ -137,12 +137,8 @@ button {
 
 .bottom-section article {
 	display: inline-block;
-	width: 31%;
-	margin: 30px 10px;
-}
-
-.bottom-section article:nth-child(1) {	
-	margin-left: 0;
+	width: 30%;
+	margin: 10px;
 }
 
 /* main ends here */
