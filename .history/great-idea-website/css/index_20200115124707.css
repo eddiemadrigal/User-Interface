@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* nav styling starts here */
+.slogan {
+	font-family: 'Bangers', cursive;
+	font-size: 48px;
+}
 
 ul {
 	text-align: center;
@@ -74,15 +77,6 @@ ul {
 ul li {
 	display: inline-block;
 	margin: 20px;
-}
-
-/* nav styling ends here */
-
-/* header styling starts here */
-
-.slogan {
-	font-family: 'Bangers', cursive;
-	font-size: 48px;
 }
 
 header {
@@ -104,7 +98,5 @@ header {
 
 button {
 	display: block;
-	margin: 10px auto;
 }
 
-/* header styling ends here */

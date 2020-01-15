@@ -65,7 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* nav styling starts here */
+.slogan {
+	font-family: 'Bangers', cursive;
+	font-size: 48px;
+}
 
 ul {
 	text-align: center;
@@ -76,15 +79,6 @@ ul li {
 	margin: 20px;
 }
 
-/* nav styling ends here */
-
-/* header styling starts here */
-
-.slogan {
-	font-family: 'Bangers', cursive;
-	font-size: 48px;
-}
-
 header {
 	margin: 0 auto;
 	width: 80%;
@@ -93,18 +87,10 @@ header {
 
 .header {
 	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	margin: 0 50px;
-}
-
-.header img {
-	height: 250px;
+	text-align: block;
 }
 
 button {
 	display: block;
-	margin: 10px auto;
 }
 
-/* header styling ends here */
