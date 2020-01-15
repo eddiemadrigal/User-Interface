@@ -74,8 +74,7 @@ h1, h2, h3, h4, h5 {
 
 /* body container ends here */
 
-/* nav starts here */
-
+/* nav styling starts here */
 
 ul {
 	text-align: center;
@@ -83,12 +82,12 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding: 45px;
+	margin: 20px;
 }
 
-/* nav ends here */
+/* nav styling ends here */
 
-/* header starts here */
+/* header styling starts here */
 
 .slogan {
 	font-family: 'Bangers', cursive;
@@ -96,7 +95,7 @@ ul li {
 }
 
 header {
-	margin: 0 auto 50px;
+	margin: 0 auto;
 	width: 80%;
 	text-align: center;
 }
@@ -117,4 +116,4 @@ button {
 	margin: 10px auto;
 }
 
-/* header ends here */
+/* header styling ends here */

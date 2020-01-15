@@ -83,7 +83,8 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding: 45px;
+	border: 1px solid black;
+	padding: 40px;
 }
 
 /* nav ends here */

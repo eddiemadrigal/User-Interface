@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5 {
 
 /* nav starts here */
 
+nav {
+	border: 1px solid black;
+}
 
 ul {
 	text-align: center;
@@ -83,7 +86,9 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding: 45px;
+	margin: 40px;
+	border: 1px solid black;
+	width: 100px;
 }
 
 /* nav ends here */
