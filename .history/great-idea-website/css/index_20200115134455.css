@@ -95,10 +95,6 @@ h1 {
 	font-size: 60px;
 }
 
-h2 {
-	font-family: 'Bangers', cursive;
-}
-
 header {
 	margin: 0 auto 50px;
 	width: 80%;
@@ -150,26 +146,3 @@ button {
 }
 
 /* main ends here */
-
-/* address starts here */
-
-address h2 {
-	margin-top: 40px;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-}
-
-p.para-v-spacing {
-	margin: 20px 0;
-}
-
-/* address ends here */
-
-/* footer starts here */
-
-
-
-/* footer ends here */

@@ -157,19 +157,8 @@ address h2 {
 	margin-top: 40px;
 }
 
-a {
-	text-decoration: none;
-	color: #000;
-}
-
-p.para-v-spacing {
-	margin: 20px 0;
+address {
+	display: block;
 }
 
 /* address ends here */
-
-/* footer starts here */
-
-
-
-/* footer ends here */

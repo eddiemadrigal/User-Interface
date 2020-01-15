@@ -158,18 +158,13 @@ address h2 {
 }
 
 a {
+	display: inline-block;
+	margin: 20px 0;
 	text-decoration: none;
-	color: #000;
 }
 
-p.para-v-spacing {
-	margin: 20px 0;
+a:nth-child(1) {
+	margin-bottom: 0;
 }
 
 /* address ends here */
-
-/* footer starts here */
-
-
-
-/* footer ends here */
