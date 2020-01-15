@@ -70,11 +70,8 @@ h1, h2, h3, h4, h5 {
 	font-size: 48px;
 }
 
-ul {
-	text-align: center;
-}
-
 ul li {
 	display: inline-block;
 	margin: 20px;
+	text-align: center;
 }
