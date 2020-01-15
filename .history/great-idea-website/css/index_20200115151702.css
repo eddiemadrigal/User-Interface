@@ -82,7 +82,7 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding: 20px 45px;
+	padding: 20px 45px 0;
 }
 
 ul li:last-child {
@@ -94,7 +94,7 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin: 30px auto 50px;
+	margin: 50px auto;
 	width: 80%;
 	text-align: center;
 }

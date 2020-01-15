@@ -76,28 +76,34 @@ h1, h2, h3, h4, h5 {
 
 /* nav starts here */
 
+nav {
+	position: fixed;
+	top: 0;
+	width: 90%;
+	background-color: #FFF;
+	display: inline-block;
+	height: 60px;
+}
+
 ul {
 	text-align: center;
 }
 
-ul li {
-	display: inline-block;
-	padding: 20px 45px;
+ul li a {
+	display: block;
+	padding: 10px 0;
+	width: 100px;
+	float: left;
+	margin-top: 10px;
 }
 
-ul li:last-child {
+ul li a:last-child {
 	vertical-align: middle;
 }
 
 /* nav ends here */
 
 /* header starts here */
-
-header {
-	margin: 30px auto 50px;
-	width: 80%;
-	text-align: center;
-}
 
 h1 {
 	font-family: 'Bangers', cursive;
@@ -106,6 +112,12 @@ h1 {
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+header {
+	margin: 70px auto 50px;
+	width: 80%;
+	text-align: center;
 }
 
 .header {

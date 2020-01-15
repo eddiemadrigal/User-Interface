@@ -76,13 +76,21 @@ h1, h2, h3, h4, h5 {
 
 /* nav starts here */
 
+nav {
+	position: fixed;
+	top: 0;
+	width: 90%;
+	background-color: #FFF;
+	display: inline-block;
+}
+
 ul {
 	text-align: center;
 }
 
 ul li {
 	display: inline-block;
-	padding: 20px 45px;
+	padding: 10px 0;
 }
 
 ul li:last-child {
@@ -93,12 +101,6 @@ ul li:last-child {
 
 /* header starts here */
 
-header {
-	margin: 30px auto 50px;
-	width: 80%;
-	text-align: center;
-}
-
 h1 {
 	font-family: 'Bangers', cursive;
 	font-size: 60px;
@@ -106,6 +108,12 @@ h1 {
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+header {
+	margin: 70px auto 50px;
+	width: 80%;
+	text-align: center;
 }
 
 .header {

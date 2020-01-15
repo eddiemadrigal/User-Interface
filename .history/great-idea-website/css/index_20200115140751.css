@@ -76,28 +76,19 @@ h1, h2, h3, h4, h5 {
 
 /* nav starts here */
 
+
 ul {
 	text-align: center;
 }
 
 ul li {
 	display: inline-block;
-	padding: 20px 45px;
-}
-
-ul li:last-child {
-	vertical-align: middle;
+	padding: 45px;
 }
 
 /* nav ends here */
 
 /* header starts here */
-
-header {
-	margin: 30px auto 50px;
-	width: 80%;
-	text-align: center;
-}
 
 h1 {
 	font-family: 'Bangers', cursive;
@@ -106,6 +97,12 @@ h1 {
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+header {
+	margin: 0 auto 50px;
+	width: 80%;
+	text-align: center;
 }
 
 .header {
@@ -122,7 +119,6 @@ h2 {
 button {
 	display: block;
 	margin: 10px auto;
-	padding: 5px 25px;
 }
 
 /* header ends here */

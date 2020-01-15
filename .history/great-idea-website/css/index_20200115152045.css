@@ -94,7 +94,7 @@ ul li:last-child {
 /* header starts here */
 
 header {
-	margin: 30px auto 50px;
+	margin: 0 auto 50px;
 	width: 80%;
 	text-align: center;
 }

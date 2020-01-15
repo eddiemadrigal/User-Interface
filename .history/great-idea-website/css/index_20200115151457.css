@@ -93,19 +93,20 @@ ul li:last-child {
 
 /* header starts here */
 
-header {
-	margin: 30px auto 50px;
-	width: 80%;
-	text-align: center;
-}
-
 h1 {
 	font-family: 'Bangers', cursive;
 	font-size: 60px;
+	margin-top: 30px;
 }
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+header {
+	margin: 0 auto 50px;
+	width: 80%;
+	text-align: center;
 }
 
 .header {
