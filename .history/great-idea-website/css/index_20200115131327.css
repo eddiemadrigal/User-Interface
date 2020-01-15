@@ -118,21 +118,3 @@ button {
 }
 
 /* header ends here */
-
-/* main starts here */
-
-.top-section article {
-	display: inline-block;
-	width: 45%;
-	margin: 10px 0 40px;
-}
-
-.top-section article:nth-child(2) {
-	margin: 10px 0 40px 30px;
-}
-
-.middle-img {
-	width: 100%;
-}
-
-/* main ends here */

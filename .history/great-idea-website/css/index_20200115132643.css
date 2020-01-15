@@ -127,12 +127,10 @@ button {
 	margin: 10px 0 40px;
 }
 
-.top-section article:nth-child(2) {
-	margin: 10px 0 40px 30px;
-}
-
-.middle-img {
-	width: 100%;
+.top-section article:nth-child(1) {
+	display: inline-block;
+	width: 45%;
+	margin: 10px 0 40px 20px;
 }
 
 /* main ends here */
