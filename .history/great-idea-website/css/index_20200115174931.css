@@ -87,7 +87,7 @@ button.move-btn:hover {
 	to {background-color: yellow;}
   }
 
-  a:hover {
+  button.move-btn:hover {
 	background-color: red;
 	-webkit-animation-name: links; /* Safari 4.0 - 8.0 */
 	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */

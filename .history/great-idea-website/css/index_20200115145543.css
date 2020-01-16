@@ -65,102 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* CSS animations start here */
-
-button.move-btn:hover {
-	background-color: red;
-	-webkit-animation-name: button; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: button;
-	animation-duration: 2s;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes button {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-  
-  /* Standard syntax */
-  @keyframes button {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-  a:hover {
-	background-color: red;
-	-webkit-animation-name: links; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: links;
-	animation-duration: 2s;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes links {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-  
-  /* Standard syntax */
-  @keyframes links {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-/*CSS animations stop here */
-
-/* Background modifications start here */
-
-.bg-img {
-	background-image: url('../img/mid-page-accent.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-blend-mode: lighten;
-}
-
-button.bg-button {
-	color: #000;
-}
-
-hr.bg-hr {
-	padding: 0;
-}
-
-.bg-header {
-	padding-top: 50px;
-}
-
-.bg-footer {
-	padding-bottom: 10px;
-}
-
-.bg-bottom {
-	margin-bottom: 20px;
-}
-
-.bg-text-white {
-	color: #fff;
-}
-
-.bg-left-padding {
-	padding-left: 10px;
-}
-
-.bg-top-margin {
-	margin-top: 70px;
-}
-
-/* Background modifications start here */
-
-/* Start paragraph formatting with Google font */
-
-p {
-	font-family: 'Ibarra Real Nova', serif;
-	font-size: 1.5rem;
-}
-
-/* End paragraph formatting with Google font */
-
 /* body container starts here */
 
 .container {
@@ -172,17 +76,22 @@ p {
 
 /* nav starts here */
 
-ul {
-	text-align: center;
+nav {
 	position: fixed;
-	background-color: #eee;
 	top: 0;
 	width: 90%;
+	background-color: #FFF;
+	display: inline-block;
 }
 
-ul li {
-	display: inline-block;
-	padding: 10px 45px;
+ul {
+	text-align: center;
+}
+
+ul li a {
+	display: block;
+	padding: 10px 0;
+	width: 100px;
 }
 
 ul li:last-child {
@@ -193,12 +102,6 @@ ul li:last-child {
 
 /* header starts here */
 
-header {
-	margin: 120px auto 50px;
-	width: 80%;
-	text-align: center;
-}
-
 h1 {
 	font-family: 'Bangers', cursive;
 	font-size: 60px;
@@ -206,6 +109,12 @@ h1 {
 
 h2 {
 	font-family: 'Bangers', cursive;
+}
+
+header {
+	margin: 70px auto 50px;
+	width: 80%;
+	text-align: center;
 }
 
 .header {
@@ -261,10 +170,6 @@ address h2 {
 	margin-top: 40px;
 }
 
-address p {
-	font-size: 1rem;
-}
-
 a {
 	text-decoration: none;
 	color: #000;
@@ -281,13 +186,6 @@ p.para-v-spacing {
 footer p {
 	text-align: center;
 	margin: 40px 0;
-	font-size: 1rem;
 }
 
 /* footer ends here */
-
-/* Text customizing starts here */
-
-.focus {
-	font-weight: bold;
-}

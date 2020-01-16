@@ -65,50 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* CSS animations start here */
-
-button.move-btn:hover {
-	background-color: red;
-	-webkit-animation-name: button; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: button;
-	animation-duration: 2s;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes button {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-  
-  /* Standard syntax */
-  @keyframes button {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-  a:hover {
-	background-color: red;
-	-webkit-animation-name: links; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: links;
-	animation-duration: 2s;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes links {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-  
-  /* Standard syntax */
-  @keyframes links {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-/*CSS animations stop here */
-
 /* Background modifications start here */
 
 .bg-img {
@@ -118,36 +74,9 @@ button.move-btn:hover {
 	background-blend-mode: lighten;
 }
 
-button.bg-button {
-	color: #000;
-}
-
-hr.bg-hr {
-	padding: 0;
-}
-
-.bg-header {
-	padding-top: 50px;
-}
-
-.bg-footer {
-	padding-bottom: 10px;
-}
-
-.bg-bottom {
-	margin-bottom: 20px;
-}
-
-.bg-text-white {
+* {
 	color: #fff;
-}
-
-.bg-left-padding {
-	padding-left: 10px;
-}
-
-.bg-top-margin {
-	margin-top: 70px;
+	padding: 10px;
 }
 
 /* Background modifications start here */
