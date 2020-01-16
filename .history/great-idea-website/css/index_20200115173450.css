@@ -91,7 +91,8 @@ hr.bg-hr {
 }
 
 .bg-bottom {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	border: red 2px solid;
 }
 
 .bg-text-white {

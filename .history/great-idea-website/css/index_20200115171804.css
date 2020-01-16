@@ -74,36 +74,21 @@ h1, h2, h3, h4, h5 {
 	background-blend-mode: lighten;
 }
 
-button.bg-button {
+* {
+	color: #fff;
+	padding: 10px;
+}
+
+button {
 	color: #000;
 }
 
-hr.bg-hr {
+hr {
 	padding: 0;
 }
 
 .bg-header {
-	padding-top: 50px;
-}
-
-.bg-footer {
-	padding-bottom: 10px;
-}
-
-.bg-bottom {
-	margin-bottom: 20px;
-}
-
-.bg-text-white {
-	color: #fff;
-}
-
-.bg-left-padding {
-	padding-left: 10px;
-}
-
-.bg-top-margin {
-	margin-top: 70px;
+	padding: 20px 0;
 }
 
 /* Background modifications start here */

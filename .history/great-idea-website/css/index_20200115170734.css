@@ -65,48 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* Background modifications start here */
-
 .bg-img {
 	background-image: url('../img/mid-page-accent.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-blend-mode: lighten;
 }
-
-button.bg-button {
-	color: #000;
-}
-
-hr.bg-hr {
-	padding: 0;
-}
-
-.bg-header {
-	padding-top: 50px;
-}
-
-.bg-footer {
-	padding-bottom: 10px;
-}
-
-.bg-bottom {
-	margin-bottom: 20px;
-}
-
-.bg-text-white {
-	color: #fff;
-}
-
-.bg-left-padding {
-	padding-left: 10px;
-}
-
-.bg-top-margin {
-	margin-top: 70px;
-}
-
-/* Background modifications start here */
 
 /* Start paragraph formatting with Google font */
 

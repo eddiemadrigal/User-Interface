@@ -82,28 +82,12 @@ hr.bg-hr {
 	padding: 0;
 }
 
-.bg-header {
-	padding-top: 50px;
-}
-
-.bg-footer {
-	padding-bottom: 10px;
-}
-
-.bg-bottom {
-	margin-bottom: 20px;
+header.bg-header {
+	padding-top: 30px;
 }
 
 .bg-text-white {
 	color: #fff;
-}
-
-.bg-left-padding {
-	padding-left: 10px;
-}
-
-.bg-top-margin {
-	margin-top: 70px;
 }
 
 /* Background modifications start here */
