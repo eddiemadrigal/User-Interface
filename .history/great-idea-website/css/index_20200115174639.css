@@ -69,40 +69,20 @@ h1, h2, h3, h4, h5 {
 
 button.move-btn:hover {
 	background-color: red;
-	-webkit-animation-name: button; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: button;
-	animation-duration: 2s;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: example;
+	animation-duration: 4s;
   }
   
   /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes button {
+  @-webkit-keyframes example {
 	from {background-color: red;}
 	to {background-color: yellow;}
   }
   
   /* Standard syntax */
-  @keyframes button {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-  a:hover {
-	background-color: red;
-	-webkit-animation-name: links; /* Safari 4.0 - 8.0 */
-	-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-	animation-name: links;
-	animation-duration: 2s;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes links {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-  
-  /* Standard syntax */
-  @keyframes links {
+  @keyframes example {
 	from {background-color: red;}
 	to {background-color: yellow;}
   }
