@@ -202,5 +202,5 @@ footer p {
 /* Text customizing starts here */
 
 .focus {
-	font-weight: bold;
+	text-decoration: strong;
 }
